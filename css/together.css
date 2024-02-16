@@ -1,0 +1,31 @@
+.together{
+    background-color: var(--bg-grey);
+    height: 250;
+
+}
+.together-content{
+    overflow: hidden;
+}
+.together-item{
+    float: left;
+    width: 50%;
+    padding-top: 80;
+
+}
+.together-desc{
+    color: var(--font-color);
+    font-size: 15;
+    padding-left: 50;
+
+}
+.together-item .together-header{
+    font-size: 30;
+    padding-left: 50;
+    color: white;
+font-weight: 700px;    
+
+}
+.together-btn{
+    text-align: center;
+    width: 40%;
+}

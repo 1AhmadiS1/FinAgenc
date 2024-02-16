@@ -1,0 +1,99 @@
+.end{
+    background-color: black;
+    height: 700px;
+}
+.end .fin{
+    color: white;
+}
+.end-logo1{
+    font-size: 30;
+    padding-top:100 ;
+    font-weight:700;
+    cursor: pointer;
+}
+.end-content{
+    overflow: hidden;
+}
+.end-item{
+    float: left;
+    width: 50%;
+    color: white;
+}
+.end-content1{
+    overflow: hidden;
+}
+.end-item1{
+    line-height: 2.5;
+    float: left;
+    width: 50%;
+    color: white;
+    padding-top: 50;
+}
+.end-item1-header{
+    font-size: 25;
+}
+.end-item1 .fa{
+    padding: 15;
+    border-radius:5px;
+    color:var(--secondary-color);
+    background-color: var(--bg-grey);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.h22{
+    padding-left: 50;
+}
+
+.end-item2-header{
+    font-size: 30;
+    padding-left: 200;
+    padding-top: 100;
+}
+.end-item2-parg-head{
+    font-weight: 700;
+    padding-left: 198;
+    padding-top: 60;
+    text-transform: capitalize;
+
+}
+.email{
+    margin:10 0;
+    padding:10 30;
+    background-color: var(--bg-grey);
+    border-style:1px solid;
+    border-radius: 5px;
+}
+.end-item-parg{
+    font-size: 10;
+    padding-left: 197;
+    padding-top: 10;
+    color: var(--font-color);
+}
+.end-item1 .fa:hover{
+    color:var(--bg-grey);
+    background-color: var(--secondary-color);
+}
+.end-item .a{
+    color: white;
+    text-decoration: none;
+cursor: pointer;}
+
+.end-item .a:hover{
+    text-decoration:underline;
+}
+.end-item .link1
+{
+    padding: 5;
+    color: white;
+    text-decoration: none;
+cursor: pointer;
+
+}
+.link{
+    padding: 100 0 100 200;
+    color: var(--font-color);
+
+}
+.end-item .link1:hover{
+    text-decoration:underline;
+}

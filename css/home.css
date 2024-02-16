@@ -1,0 +1,39 @@
+.home{
+    background-image: url(../images/background/BG4.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+height: 100vh; 
+   position: relative;
+}
+
+.home .home-item{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 200px;
+    text-align: left;
+
+}
+.home .home-desc{
+color: var(--secondary-color);
+}
+.home-title{
+    font-size: 60px;
+    color: white;
+}
+.home-btn{
+color: white;
+background-color: var(--primary-color);
+border: none;
+margin: 10 0 0 0;
+padding: 18 34px;
+border-radius: 4px;
+cursor: pointer;
+transition: 0.5s;
+text-transform: capitalize;
+
+}
+
+
+
+

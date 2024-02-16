@@ -1,0 +1,67 @@
+.marketing{
+    display: inline-block;
+    margin-bottom:300px;
+    width: 100%;
+position: absolute;
+transform: translateY(-150px);
+}
+.marketing-content {
+    padding-bottom: 100px;
+    padding-top: 20px;
+}   
+.market-item{
+    text-align: center;
+    float: left;
+    list-style: none;
+    margin: auto;
+    width: 30%;
+    background-color: #1d1d1d;;
+    color: rgb(206, 206, 206);
+   padding-bottom: 100px;
+   padding-top: 20px;
+   transition: 0.5s;
+   border-radius:8px ;
+
+
+}
+.market-head-item{
+    font-size: 25px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.mg1{
+    margin: 0 3%;
+}
+.icon{
+    color: var( --primary-color);
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    padding: 20;
+    margin:20px 130px;
+    font-size: 24px;
+    line-height: 88px;
+    transition: 0.5s;
+    border-radius:8px ;
+ 
+}
+.mg1{
+    background-color: var(--primary-color);
+}
+.mg2{
+    background-color: white;
+}
+.market-item:hover{
+    background-color: var(--primary-color);
+}
+.market-item:hover .icon {
+    background-color: white;
+}
+.back{
+    position: relative;
+    width: 100%;
+    background-color: var(--bcolor);
+    height: 30vh;
+    z-index: -1;
+    
+}
+

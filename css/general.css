@@ -1,0 +1,59 @@
+.container{
+    width: 1140px;  
+   margin: auto; 
+}
+:root{
+  --bcolor:#0a0a0a;
+  --primary-color:#2164f4;
+  --secondary-color:#ffd900;
+  --font-color: #afafaf;
+  --bg-grey: #111;
+}
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    /* css3 */
+      
+}
+
+.home{
+    height: 20%;
+}
+.overlay{
+    position: absolute;
+    background-color:rgb(0, 0, 0,0.8);
+    height: 100%;
+    width: 100%;
+    
+}
+.overflow{
+overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+.btn{
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    margin: 10 0 0 0;
+    padding: 18 34px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+    color: black;
+}
+.pd-y{
+
+    padding: 0 0 100px 0;
+}
+.body{
+    background-color: var(--bcolor);
+    position: fixed;
+}
